@@ -1,0 +1,31 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <title>Bevezetés</title>
+    <partintro>
+        <para>
+			Jelen dokumentum célja a Debreceni Egyetem Informatikai Kar (DE-IK) Magas szintű programozási nyelvek II kurzusban fő 
+			kutatási irányt képviselő Samu Entropy alkalmazáshoz kapcsolódó feladatmegoldások és esetleges egyéni fejlesztések bemutatása. 
+			A dokumentumban bemutatott fejlesztéseket Czinege Zénó eszközölte Sáfrány Artúr munkája alapján. 
+			Az eredeti feladatkiírásoknak próbáltunk 
+			eleget tenni, azonban a módosítások következtében alapjaiban változott meg a kód, így a jelenlegi verzióról nem mondható ki 
+			teljes bizonysággal, hogy melyik korábbi verzió utódja, de funkcionalitásában a BrainBoardhoz áll legközelebb. Ezt azért is éreztük 
+			fontosnak megemlíteni, mert a feladatok kiírásában gyakran egy konkrét verzióhoz van kiírva egy adott feladat. Mivel a jelenlegi kód 
+			eltér minden korábbitól, valamint mivel saját fejlesztésű, ezért egyszerre nem tekinthető egyik korábbi verzió utódjának sem, és 
+			egyszerre tekinthető mindegyikének.
+        </para>
+    </partintro>
+
+    <chapter>
+        <info>
+            <title>Bevezetés</title>
+        </info>
+        <section>
+            <title>Az eredeti 5let</title>
+            <para>
+                Az eredeti 5let, hogy pontokat szerzünk a kiírt feladatok megoldásával.
+            </para>         
+		 </section>
+    </chapter>        
+</part>

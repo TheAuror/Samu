@@ -1,0 +1,295 @@
+<part xmlns="http://docbook.org/ns/docbook" version="5.1" xml:lang="hu"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="samuentropy-idea-research-hu">
+    <title>Fejlesztések és feladatmegoldások bemutatása</title>
+
+    <partintro>
+        <para>
+			Ebben a részben bemutatjuk a kész, folyamatban lévő, illetve tervezett fejlesztések bemutatását.
+        </para>
+        <para>
+			Engedélyezetten Android Studio használat, a maven project párhuzamos fejlesztése nincs egy szintre hozva vele.
+        </para>
+    </partintro>
+
+    <chapter>
+        <info>
+            <title>Gréta</title>
+            <keywordset>
+                <keyword></keyword>
+            </keywordset>
+        </info>
+
+        <section>
+            <title>Gréta I.</title>
+            <para>
+                Készíts egy saját forkot a ../cs/NorbironLogo app-ból (az egész ESAMU-ról persze) és és kísérletezz 
+				a saját logóddal, hogy mutat! (UDPROG közösségben tipikusan Android kezdőknek ajánlva: 65 pont, a „játékélményt” 
+				írd meg fészes posztban is, a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
+            </para>
+            <section>
+				<title>Kivitelezés</title>
+	            <para>
+					A logo megjelenik a splash képernyőn.
+	            </para>			
+            </section>
+			<section>
+				<title>Játékélmény</title>
+	            <para>
+					Ismerkedés jellegű feladat, inkább az esztétikai igények kiélése, semmint programozás, azonban itt is belefutottunk érdekes témákba, layoutok működésébe, stb.
+	            </para>			
+            </section>			
+        </section>
+
+        <section>
+            <title>Gréta II.</title>
+            <para>
+				Készíts egy saját forkot a ../cs/NorbironAnim app-ból (az egész ESAMU-ról persze) és és kísérletezz a Norbiron
+				../res/logo/Norbiron logó animációjával, hogy mutat! (UDPROG közösségben tipikusan Android kezdőknek
+				ajánlva: 65 pont, a „játékélményt” írd meg fészes posztban is, a posztodra minden szakmai komment +10 pont, minden
+				lájk 5 pont).
+            </para>
+            <section>
+				<title>Kivitelezés</title>
+    	        <para>
+					Az animáció megjelenik a samu | Anim menüpont alatt.
+	            </para>			
+            </section>
+            <section>
+				<title>Játékélmény</title>
+	            <para>
+					Több animáció kipróbálása, melyek során szerzett tapasztalatok más, saját project során is hasznunkra váltak. Igyekeztünk folyamatos, esztétikus képi világot teremteni.
+	            </para>			
+            </section>			
+        </section>
+
+        <section>
+            <title>Gréta III.</title>
+            <para>
+				Készíts egy saját forkot a ../cs/NorbironGame app-ból (az egész ESAMU-ról persze) és és kísérletezz a Norbiron
+				../res/logo/Norbiron logó animációjával! Tedd páldául őket dobozokba, ahol az egyik dobozban random mozog-
+				janak, a másikban szabályosan (pl. rácsba szervezve rezegve, vagy körbe forogva stb.) (UDPROG közösségben tipikusan
+				Android kezdőknek ajánlva: 115 pont, a „játékélményt” írd meg fészes posztban is, a posztodra minden szakmai komment
+				+10 pont, minden lájk 5 pont).
+            </para>
+            <section>
+				<title>Kivitelezés</title>
+	            <para>
+					A megoldás megtalálható a Norbiron Game appban.
+	            </para>			
+            </section>
+            <section>
+				<title>Játékélmény</title>
+	            <para>
+					A neuronok négyzetekhez vannak kötve, szabályozottan mozognak egy előre definiált vektor alapján, így könnyűvé téve a későbbi változtatásokat.
+	            </para>			
+            </section>			
+        </section>
+
+        <section>
+            <title>Gréta IV.</title>
+            <para>
+				Készíts egy saját forkot a ../cs/NorbironBox app-ból (az egész ESAMU-ról persze) és és kísérletezz a Norbiron ..
+				/res/logo/Norbiron alapú „processzorokkal”! Kapcsold őket például valamilyen hálózatba, ehhez lehet mozgatni
+				kell őket, vagy fix slot helyekre kiválasztani stb. (UDPROG közösségben tipikusan Android kezdőknek ajánlva: 135 pont,
+				a „játékélményt” írd meg fészes posztban is, a posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
+            </para>
+            <section>
+				<title>Kivitelezés</title>
+	            <para>
+					A megoldás megtalálható a samu | Brainboard menüpont alatt.
+	            </para>			
+            </section>
+            <section>
+				<title>Játékélmény</title>
+	            <para>
+					A hálózatnak tekinthető board, tehát a háttél egyszerűen szerkeszthető a NorbironMap forrását módosítva, ezt a forrástutorálószemély által eszközölt módosításokakl bárki igény szerint változtathatja, ezt használtuk ki a feladat megoldása során. Igyekeztünk növelni az esztétikai élményt, a küllemet, valamint javítani a mozgáson, a változás szemmellátható. Eltűnik a folyamatos mozgás, így nem kelt olyan érzetet a program, hogy akárhova kerülhetne a box. Természetesen nem is kerülhet, csak fix slot helyekre.
+	            </para>			
+            </section>			
+        </section>
+
+        <section>
+            <title>Gréta V.</title>
+            <para>
+				Készíts egy saját forkot a ../cs/NorbironBox app-ból (az egész ESAMU-ról persze) és a Javadoc konvenciókat
+				követve kommentezd fel a forrásokat! (UDPROG közösségben, tipikusan kezdőknek ajánlva: 90 pont).
+            </para>
+            <section>
+				<title>Kivitelezés</title>
+	            <para>
+					...
+	            </para>			
+            </section>
+        </section>
+
+        <section>
+            <title>Gréta VI.</title>
+            <para>
+				Készíts egy saját forkot a ../cs/NorbironBoard app-ból (az egész ESAMU-ról persze) és gondold át a processzo-
+				rok kijelölését, majd valósíts meg ennek kapcsán valamilyen saját elképzelésedet! (UDPROG közösségben, tipikusan
+				kezdőknek ajánlva: 420 pont).
+            </para>
+            <section>
+				<title>Kivitelezés</title>
+	            <para>
+					...
+	            </para>			
+            </section>
+        </section>
+
+        <section>
+            <title>Gréta VII.</title>
+            <para>
+				Készíts egy saját forkot a ../cs/NorbironBoard app-ból (az egész ESAMU-ról persze) és javíts a mozgatáson és
+				nagyításon (tehát legyen elképzelés mit javítanál és valósítsd is meg)! (UDPROG közösségben, tipikusan kezdőknek
+				ajánlva: 380 pont).
+            </para>
+            <section>
+				<title>Kivitelezés</title>
+	            <para>
+					A megoldás megtalálható a samu | Brainboard menüpont alatt.
+	            </para>			
+            </section>
+            <section>
+				<title>Játékélmény</title>
+	            <para>
+					Kicsinyítés lehetőségének további módosítása, szemmel látható változás, növeli az áltálhatóságot, valamint a kijelölést sem zavarja, hiába kicsinyüének a boxok is. Így a játékélmény nő.
+	            </para>		
+            </section>		
+        </section>
+
+        <section>
+            <title>Gréta VIII.</title>
+            <para>
+				Készíts egy saját forkot a ../cs/NorbironBoard app-ból és old meg, hogy a neuron sprite-ok ne másszanak ki a
+				procik alól! (UDPROG közösségben, tipikusan kezdőknek ajánlva: 210 pont).
+            </para>
+            <section>
+				<title>Kivitelezés</title>
+	            <para>
+					A méret változott a Sproteok esetén, így már nem hadonásznak ki a csápjaikkal a boxokból. A feladat során új osztályokkal ismerkedtünk meg, valamint a Bitmap kapcsán is mélyültek az ismereteink.
+	            </para>			
+            </section>
+            <section>
+				<title>Játékélmény</title>
+	            <para>
+					Érdekes bepillantást nyerni a neuronok életébe. Már nem másznak ki, csak nem olyan esztétikusak. Igyekeztünk javítani a küllemen,
+					egy menüből érhető el a BrainBoard felülete. A menürendszer és egyéb megoldások állandó módosítás altt vannak.
+	            </para>			
+            </section>			
+        </section>
+
+        <section>
+            <title>Gréta IX.</title>
+            <para>
+				Készíts egy saját forkot a ../cs/NorbironBoard app-ból és old meg, hogy a készülék forgatásakor ua. maradjon az
+				elemek elhelyezkedése! (UDPROG közösségben, tipikusan kezdőknek ajánlva: 310 pont).
+            </para>
+            <section>
+				<title>Kivitelezés</title>
+	            <para>
+					Az program átiratában már nem áll fenn ez a probléma.
+	            </para>			
+            </section>
+            <section>
+				<title>Játékélmény</title>
+	            <para>
+					Nyilvánvalóan szebb és használhatóbb az alkalmazás így, hogy kezel landscape és portrait beállítást is.
+	            </para>			
+            </section>			
+        </section>    
+    </chapter>
+	
+	<chapter>
+        <info>
+            <title>Védése feladatok</title>
+            <keywordset>
+                <keyword></keyword>
+            </keywordset>
+        </info>
+
+        <section>
+            <title>Védés - 1.0</title>
+            <para>
+				Készíts egy saját forkot a ../cs/NorbironTable app-ból (az egész ESAMU-ról persze) és a saját magad elképzelte
+				irányban fejleszd tovább, azaz kísérletezz a játékélménnyel! Védésként választva kötelező implemntálandó pontok az
+				alábbiak:
+				• Találj ki valamilyen politikát a nódokat hozzáadó aktiviti elérésére és valósítsd meg (pl. a Build csomópont legyen
+				mindig a bal alsó sarokban, akár legyen külön menü stb. most ugye a Build csomóponton kettőt kattintva jön be).
+				• Az app emlékezzen a felépített nódokra, azaz újraindítás után a korábban felrakott csomópontok jelenjenek meg.
+				ezeket készítheted from scratch, vagy akár 2 fős csoportban, a kezdők a további protók alapján, azokra pár napot várva,
+				hogy a from scratch értelmezhető legyen. (UDPROG közösségben 490 pont, a játékélményt írd meg fészes posztban is, a
+				posztodra minden szakmai komment +10 pont, minden lájk 5 pont).
+            </para>
+            <section>
+				<title>Kivitelezés</title>
+	            <para>
+					A megoldás megtalálható a samu | Brainboard menüpont alatt.
+	            </para>			
+			</section>
+            <section>
+				<title>Játékélmény</title>
+ 	           <para>
+					A menüket láthatóan elszeparáltuk a tábla többi részétől, többféle textúrát használva, valamint a kód javításának köszönhetően
+					egyszerűen szerkeszthető az elhelyezés és a design. Az alkalmazás emlékszik a felrakott node-okra, ezt a Firebase cloud-hosted adatbázisa 						teszi lehetővé. A nodeokat nem tényleges koordináták alapján, hanem a grid 'x' 'y' koordinátája alapján kerülnek tárolásra, ahol 'x' és 'y' a 						sort és oszlopot jelölik. Ezen felül mentésre kerül a box típusa is. A kódban elemi változások történtek, többek között a felhasználókezelés 
+					miatt a nodeactivity megkapja az aktuálisan bejelentkezett felhasználó nevét. A NorbironSurfaceView nem az xml-ben definiáltan jön létre, 						hanem a NorbironGameActivity kódjában hozzuk létre, ehhez új konstruktort használva, ami megkapja paraméterként a felhasználónevet.
+            	</para>			
+            </section>			
+        </section>    
+
+        <section>
+            <title>Védés - 2.0</title>
+            <para>
+				Készíts egy saját forkot a ../cs/Brainboard app-ból (az egész ESAMU-ról persze) és a saját magad elképzelte
+				irányban fejleszd tovább, azaz kísérletezz a játékélménnyel! Védésként választva kötelező implemntálandó pontok az
+				alábbiak:
+				• Tudjon mindent, amit a NorbironTable feladott védési feladatként!
+				• Az aktuális csomópontokat a BOXIN gomb nyomására tegye egy új dobozba, ami jelenjen meg a BUILD alatt is!
+				(UDPROG közösségben 790 pont, a játékélményt írd meg fészes posztban is, a posztodra minden szakmai komment +10
+				pont, minden lájk 5 pont).
+            </para>
+            <section>
+				<title>
+					Kivitelezés
+				</title>
+	            <para>
+					A megoldás megtalálható a samu | Brainboard menüpont alatt.				
+    	        </para>			
+            </section>
+            <section>
+				<title>
+					Játékélmény
+				</title>
+	            <para>
+					A node-okat hozzáadó activity -ben kijavítottunk egy bugot, miszerint a boxin 
+					gomb megnyomására nem duplikálja a források listáját, csak egyetlen new box -ot ad hozzá. A tábla törlése más mechanika szerint történik. 						Jelenleg egy NorbironMap osztály kezeli a boardot, ezen történik a törlés. Egy külön NorbironResources osztály felel az erőforrások
+					 betöltéséért, a surfaceView-on lekezelt felhasználói interakciókat is a NorbironMap értelmezi, tehát a NorbironGameActivity agya a 					NorbironMap lett, a SurfaceView már csak a felületet biztosítja, így jobban elszeparálódtak a különböző funkciók és részek. A megoldás 
+					még nem teljes, de nagy lépést tettünk az átláthatóság felé.
+	            </para>			
+            </section>			
+        </section>    
+
+        <section>
+            <title>Védés - 3.0</title>
+            <para>
+				Készíts egy saját forkot a GretaTheBuilder app-ból (az egész ESAMU-ról persze) és a saját magad elképzelte irányban
+				fejleszd tovább, azaz kísérletezz a játékélménnyel! Védésként választva kötelező implemntálandó pontok az alábbiak:
+				• Tudjon mindent, amit a Brainboard feladott védési feladatként!
+				• Ne csak csomópontokat, hanem éleket is kezeljen.
+				(UDPROG közösségben 990 pont, a játékélményt írd meg fészes posztban is, a posztodra minden szakmai komment +10
+				pont, minden lájk 5 pont).
+            </para>
+            <section>
+				<title>Kivitelezés</title>
+	            <para>
+	            </para>			
+			</section>
+            <section>
+				<title>Játékélmény</title>
+				<para>
+					...
+				</para>
+			</section>
+        </section>    
+	</chapter>
+</part>    

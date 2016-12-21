@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_darkgreen_theme"
+	android:id="@+id/mainframelayout">
+
+ 	<ImageView
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+   	    android:src="@drawable/menu_neur_background" 
+		android:id="@+id/menu_background" />
+
+ 	<ImageView
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:id="@+id/neur_anim" />
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+			android:id="@+id/menu_container">
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="3dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_settings"
+                android:id="@+id/menu_settings"
+                android:layout_weight="1"
+                android:layout_gravity="bottom" 
+				android:onClick="settingsClicked"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_neur"
+                android:id="@+id/menu_neur"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+				android:onClick="neurClicked"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_exit"
+                android:id="@+id/menu_exit"
+                android:layout_weight="1"
+                android:layout_gravity="bottom" 
+				android:onClick="exitClicked"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
+

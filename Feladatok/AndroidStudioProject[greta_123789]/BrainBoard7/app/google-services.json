@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "67453719949",
+    "firebase_url": "https://brainboard-3fea4.firebaseio.com",
+    "project_id": "brainboard-3fea4",
+    "storage_bucket": "brainboard-3fea4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67453719949:android:c88b42483f61c2db",
+        "android_client_info": {
+          "package_name": "batfai.samuentropy.brainboard7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67453719949-1dpr0o2lhkgi9fgokfd6nh7ugun8cvk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "batfai.samuentropy.brainboard7",
+            "certificate_hash": "D9A37D844AC4457CF3DDA3B6D5CE5464AB066F1F"
+          }
+        },
+        {
+          "client_id": "67453719949-0700k0cg9pl477c89jnubgeq93oup7m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHb7fg12yG1RrX8DFiM5xxMYSo-PMjUtA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67453719949-0700k0cg9pl477c89jnubgeq93oup7m4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
